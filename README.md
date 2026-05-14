@@ -14,11 +14,11 @@
 > php artisan migrate  
 > php artisan serve  
 
-> composer self-update  
-> php artisan optimize:clear  
-> edit composer.json  
-> composer update  
-> php artisan optimize
-> php artisan migrate
-> php artisan config:clear
->php artisan --version
+`composer self-update  
+`php artisan optimize:clear  
+`edit composer.json  
+`composer update  
+`php artisan optimize
+`php artisan migrate
+`php artisan config:clear
+`php artisan --version
