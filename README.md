@@ -1,19 +1,19 @@
 ## campus
 
-composer create-project laravel/laravel campus
+composer create-project laravel/laravel campus  
 
-CREATE DATABASE campus CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE campus CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;  
 
-php artisan make:migration create_students_table
-php artisan make:migration create_teachers_table
+php artisan make:migration create_students_table  
+php artisan make:migration create_teachers_table  
 
 
 
-git clone https://github.com/xxx/campus.git
-composer install
-copy .env.example .env
-php artisan key:generate
-edit .env
-CREATE DATABASE campus CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-php artisan migrate
+git clone https://github.com/xxx/campus.git  
+composer install  
+copy .env.example .env  
+php artisan key:generate  
+edit .env  
+CREATE DATABASE campus CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;  
+php artisan migrate  
 php artisan serve
